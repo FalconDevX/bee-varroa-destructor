@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("last.pt")
+model = YOLO("best.pt")
 
 results = model("test_bee.jpg", show=True)
 
